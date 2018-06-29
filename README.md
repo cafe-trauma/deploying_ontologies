@@ -4,7 +4,7 @@ Our goal is to have seperate URIs for development, individual releases, and the 
 
 ## Initial setup
 * Create a github repo for your ontology.
-* Fork the purl.obolibrary.org repository using [these instructions](https://github.com/OBOFoundry/purl.obolibrary.org)
+* Fork the [purl.obolibrary.org](https://github.com/OBOFoundry/purl.obolibrary.org) repository using [these instructions](https://github.com/OBOFoundry/purl.obolibrary.org)
 * Create a new config file in the forked repository using these settings, except modified to your ontology/github repo.
 
 ```
@@ -29,7 +29,7 @@ entries:
 ```
 * Move your current working version of your owl file into a development directory in your github repo directory.
 * Change the ontology URI of your development version ontology to `http://purl.obolibrary.org/obo/YOUR_ONTOLOGY/dev/your_ontology.owl`.
-* Push these changes to github and make a pull request for the purl.obolibrary.org repository.
+* Push these changes to github and make a pull request for the [purl.obolibrary.org](https://github.com/OBOFoundry/purl.obolibrary.org) repository.
 
 Wait a few minutes and ensure that the above link resolves properly to your development ontology.
 
