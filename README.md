@@ -14,7 +14,7 @@ idspace: EXAMPLE
 base_url: /obo/example
 
 products:
-- example.owl: https://raw.githubusercontent.com/EXAMPLE/EXAMPLE/master/example.owl
+- example.owl: https://raw.githubusercontent.com/GITHUB_ORG_NAME/GITHUB_REPO_NAME/master/example.owl
 
 term_browser: ontobee
 example_terms:
@@ -22,10 +22,10 @@ example_terms:
 
 entries:
 - prefix: /release/
-  replacement: https://raw.githubusercontent.com/EXAMPLE/EXAMPLE/
+  replacement: https://raw.githubusercontent.com/GITHUB_ORG_NAME/GITHUB_REPO_NAME/
   
 - exact: /dev/example.owl
-  replacement: https://raw.githubusercontent.com/EXAMPLE/EXAMPLE/master/development/example.owl
+  replacement: https://raw.githubusercontent.com/GITHUB_ORG_NAME/GITHUB_REPO_NAME/master/development/example.owl
 ```
 * Move your current working version of your owl file into a development directory in your github repo directory.
 * Change the ontology URI of your development version ontology to `http://purl.obolibrary.org/obo/YOUR_ONTOLOGY/dev/your_ontology.owl`.
