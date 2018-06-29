@@ -1,5 +1,5 @@
 # Deploying Ontologies using Github and the Obofoundry
-This is a guide for deploying your ontologies to be hosted on github and using the [Obofoundry](http://www.obofoundry.org/) for purls.
+This is a guide for deploying your ontologies to be hosted on Github and using the [Obofoundry](http://www.obofoundry.org/) for purls.
 Our goal is to have seperate URIs for development, individual releases, and the most up to date release version; all without needing to edit configuration files for each release.
 
 ## Initial setup
